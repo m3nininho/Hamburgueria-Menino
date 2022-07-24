@@ -1,0 +1,43 @@
+section {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) 1fr;
+  grid-template-areas: "img texto";
+  align-items: center;
+}
+section img {
+  display: block;
+  margin: 0 auto;
+}
+section h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #d35400;
+}
+section span {
+  display: block;
+  text-align: center;
+}
+.botao {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+.botao-item {
+  display: inline-block;
+  background: #d35400;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+}
+.botao-item:hover {
+  color: rgb(219, 165, 121);
+}
+.imagem {
+  grid-area: img;
+}
+.texto {
+  justify-self: start;
+  grid-area: texto;
+}
