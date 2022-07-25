@@ -1,19 +1,16 @@
-section {
+.promocao {
   display: grid;
   grid-template-columns: minmax(100px, 1fr) 1fr;
   grid-template-areas: "img texto";
   align-items: center;
 }
-section img {
-  display: block;
-  margin: 0 auto;
-}
-section h1 {
+.titulo-promocao {
   text-align: center;
   margin-bottom: 10px;
   color: #d35400;
+  font-style: italic;
 }
-section span {
+.descricao-promocao {
   display: block;
   text-align: center;
 }
@@ -34,10 +31,11 @@ section span {
 .botao-item:hover {
   color: rgb(219, 165, 121);
 }
-.imagem {
-  grid-area: img;
+.imagem-promocao {
+  display: block;
+  margin: 0 auto;
 }
-.texto {
+.texto-promocao {
   justify-self: start;
   grid-area: texto;
 }

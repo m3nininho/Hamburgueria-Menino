@@ -1,0 +1,26 @@
+.sobre-nos-todo {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  gap: 40px;
+}
+.titulo-sobre {
+  display: inline-block;
+  grid-column: 1 / -1;
+  text-align: center;
+  margin: 50px;
+  color: #d35400;
+  font-style: italic;
+  font-size: 40px;
+}
+.info-imagem {
+  grid-column: 2 / -1;
+  display: block;
+  margin-right: 40px;
+  justify-self: center;
+  border-radius: 10px;
+}
+.info-sobre {
+  align-self: center;
+}

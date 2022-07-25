@@ -6,12 +6,12 @@ ul a {
   color: white;
 }
 ul a:hover {
-  color: #e21;
+  color: rgb(219, 165, 121);
 }
 .menu-bg {
   background: #e67e22;
-  border-top: 5px solid #e74c3c;
-  border-bottom: 5px solid #e74c3c;
+  border-top: 5px solid #e74d3ca1;
+  border-bottom: 5px solid #e74d3c9f;
 }
 .menu {
   max-width: 960px;

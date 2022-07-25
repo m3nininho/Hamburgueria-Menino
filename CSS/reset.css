@@ -8,6 +8,8 @@ li {
 }
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 500px;
+  background: #e67d2277;
 }
 li {
   list-style: none;
